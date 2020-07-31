@@ -15,6 +15,8 @@
 \usepackage{titlesec}
 \usepackage{fancybox}
 \usepackage{xparse}
+\usepackage{longdivision}
+\usepackage{xcolor}
 %Quitar el identado de todos los parrafos
 \setlength{\parindent}{0cm}
 %Para agregar el identado en cada item de enumerate o cualquier otro, usar [\hspace{1cm}(a)]
@@ -40,6 +42,7 @@
 %\SetWatermarkColor[rgb]{1,0,0} % por defecto gris claro
 \SetWatermarkAngle{55} % respecto a la horizontal
 
+\longdivisionkeys{style = german}
 \begin{document}
 	
 \problema{ }\label{pro:1}
@@ -51,9 +54,21 @@
 	\end{enumerate}
 	\solution 
 	\part
-	$120=5*24$. Entonces con $c=24$ tenemos que se cumple la definición de divisibilidad\QEPD
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{120}{5}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $5$ si divide a $120$\QEPD
 	\part
-	$165=11*15$. Entonces con $c=15$ tenemos que se cumple la definición de divisibilidad\QEPD
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{165}{11}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $11$ si divide a $165$\QEPD
 	\part
-	$98=14*7$. Entonces con $c=7$ tenemos que se cumple la definición de divisibilidad\QEPD
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{98}{14}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $14$ si divide a $98$\QEPD
 \end{document}
