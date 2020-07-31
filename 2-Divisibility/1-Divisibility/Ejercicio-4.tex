@@ -1,0 +1,81 @@
+\documentclass[10pt,a4paper]{jhwhw}
+\usepackage[utf8]{inputenc}
+%Paquetes Necesarios
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage[spanish,es-lcroman]{babel}
+\usepackage{titling}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage{latexsym}
+\usepackage{cite}
+\usepackage{titlesec}
+\usepackage{fancybox}
+\usepackage{xparse}
+\usepackage{longdivision}
+\usepackage{xcolor}
+%Quitar el identado de todos los parrafos
+\setlength{\parindent}{0cm}
+%Para agregar el identado en cada item de enumerate o cualquier otro, usar [\hspace{1cm}(a)]
+
+%Comandos de Letras
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+%Informacion del del autor del libro y localizacion
+\author{Resuelto por: \href{https://www.facebook.com/ruller}{Raúl García}\\Pagina Web: \href{https://rull3r.github.io/}{MateTips}\\Correo: rull3r@hotmail.com}
+\date{Venezuela\\ \today \\}
+\title{Solucionario \\\href{https://www.amazon.com/-/es/James-Kraft/dp/1138063479}{An Introduction to Number Theory with Cryptography\\James Kraft, Lawrence Washington}\\}
+%Para el indice alfabetico
+\makeindex
+
+%Marca de agua en el documento
+\usepackage{draftwatermark}
+\SetWatermarkText{\textsc{\href{https://rull3r.github.io/}{Visitame en MateTips}}} % por defecto Draft 
+\SetWatermarkScale{1} % para que cubra toda la página
+%\SetWatermarkColor[rgb]{1,0,0} % por defecto gris claro
+\SetWatermarkAngle{55} % respecto a la horizontal
+
+\longdivisionkeys{style = german}
+\begin{document}
+	
+\problema{ }\label{pro:1}
+	Muestre que:
+	\begin{enumerate}[\hspace{1cm}(a)]
+		\item $3|63$.
+		\item $9|27$.
+		\item $18|54$.
+		\item $10|150$.
+	\end{enumerate}
+	\solution 
+	\part
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{63}{3}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $3$ si divide a $63$\QEPD
+	\part
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{27}{9}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $9$ si divide a $27$\QEPD
+	\part
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{54}{18}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $18$ si divide a $54$\QEPD
+	\part
+	Haciendo un procedimiento clásico de división:\\
+	\begin{center}
+		\intlongdivision[german division sign = $\,\div\,$]{150}{10}
+	\end{center}
+	Obtenemos que el resto es $0$ por lo tanto $10$ si divide a $150$\QEPD
+\end{document}
