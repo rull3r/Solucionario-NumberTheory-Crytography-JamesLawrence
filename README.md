@@ -12,6 +12,7 @@ El solucionario está organizado en capítulos y secciones. A continuación se m
 - :green_book: Chapter 1 Divisibility
   - :pencil: [Ejercicio 1 al 6](https://rull3r.github.io/2015-01-06-NumberTheory-Crytography-JamesLawrence-2-21-1-6)
   - :pencil: [Ejercicio 7 al 8](https://rull3r.github.io/2015-01-07-NumberTheory-Crytography-JamesLawrence-2-21-7-8)
+  - :pencil: [Ejercicio 9 al 11](https://rull3r.github.io/2024-05-09-NumberTheory-Crytography-JamesLawrence-2-21-9-11)
   - ...
 
 - :green_book: Chapter 2 Unique Factorization
